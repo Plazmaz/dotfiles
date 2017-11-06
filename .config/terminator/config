@@ -1,0 +1,63 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = cb641c7e-2a7b-4254-bf0a-800c0dd22b43
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1052
+      title = dylan@dkatz-laptop: ~/Documents/GitPrime
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 956
+      ratio = 0.499216710183
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 524
+      ratio = 0.500477554919
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 524
+      ratio = 0.500477554919
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = cb641c7e-2a7b-4254-bf0a-800c0dd22b43
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 91da3e01-caf0-454f-bdc0-556e4fd9e6dc
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 27130467-4929-46fa-9afe-cab517a1a9f0
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 76bb0bfa-1190-4d7d-bfdb-2dad1edaff7e
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    use_theme_colors = True
