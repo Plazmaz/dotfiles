@@ -1,4 +1,4 @@
 # Defined in - @ line 0
-function running --description 'alias running ps x'
+function psx --description 'alias running ps x'
 	ps x $argv;
 end
